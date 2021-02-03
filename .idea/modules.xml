@@ -9,9 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem-build-parent.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem-build-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-resources/rheem-build-resources.iml" filepath="$PROJECT_DIR$/rheem-build-resources/rheem-build-resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-core/rheem-core.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-core/rheem-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-extensions/rheem-extensions.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-extensions/rheem-extensions.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-flink/rheem-flink.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-flink/rheem-flink.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-giraph/rheem-giraph.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-giraph/rheem-giraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-graphchi/rheem-graphchi_2.11.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-graphchi/rheem-graphchi_2.11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-extensions/rheem-iejoin/rheem-iejoin_2.11.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-extensions/rheem-iejoin/rheem-iejoin_2.11.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-java/rheem-java.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-java/rheem-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-jdbc-template/rheem-jdbc-template.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-jdbc-template/rheem-jdbc-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-postgres/rheem-postgres.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-postgres/rheem-postgres.iml" />

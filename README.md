@@ -14,6 +14,7 @@ In order to study **Rheem** more conveniently, here is the integrated project th
 * [rheem-postgres](https://github.com/rheem-ecosystem/rheem-postgres)
 * [rheem-jdbc-template](https://github.com/rheem-ecosystem/rheem-jdbc-template)
 * [rheem-api-scala-java](https://github.com/rheem-ecosystem/rheem-api-scala-java)
+* [rheem-extensions](https://github.com/rheem-ecosystem/rheem-extensions)
 * [rheem-tests-integration](https://github.com/rheem-ecosystem/rheem-tests-integration)
 
 
