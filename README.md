@@ -18,6 +18,12 @@ In order to study **Rheem** more conveniently, here is the integrated project th
 
 
 
-### compile
+### Compile
 
 `mvn clean compile -P scala,scala-11`
+
+
+
+### Attention
+
+Java codes defined by Antlr4 (`package io.rheem.core.mathex`) have been generated
