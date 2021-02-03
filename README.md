@@ -14,6 +14,7 @@ In order to study **Rheem** more conveniently, here is the integrated project th
 * [rheem-postgres](https://github.com/rheem-ecosystem/rheem-postgres)
 * [rheem-jdbc-template](https://github.com/rheem-ecosystem/rheem-jdbc-template)
 * [rheem-api-scala-java](https://github.com/rheem-ecosystem/rheem-api-scala-java)
+* [rheem-api-python](https://github.com/rheem-ecosystem/rheem-api-python)
 * [rheem-extensions](https://github.com/rheem-ecosystem/rheem-extensions)
 * [rheem-tests-integration](https://github.com/rheem-ecosystem/rheem-tests-integration)
 
@@ -27,4 +28,5 @@ In order to study **Rheem** more conveniently, here is the integrated project th
 
 ### Attention
 
-Java codes defined by Antlr4 (`package io.rheem.core.mathex`) have been generated
+1. Java codes defined by Antlr4 (`package io.rheem.core.mathex`) have been generated
+2. Java codes defined by protobuf (`descriptor.Rheemintegration`) have been generated

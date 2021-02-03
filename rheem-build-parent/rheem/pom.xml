@@ -297,6 +297,7 @@
         <module>rheem-postgres</module>
         <module>rheem-jdbc-template</module>
         <module>rheem-api-scala-java</module>
+        <module>rheem-api-python</module>
         <module>rheem-extensions</module>
         <module>rheem-tests-integration</module>
     </modules>

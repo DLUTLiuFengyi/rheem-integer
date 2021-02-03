@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-python/pyrheem/pyrheem.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-python/pyrheem/pyrheem.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-python/rheem-api-python.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-python/rheem-api-python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-python/rheem-api-python-java/rheem-api-python-java.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-python/rheem-api-python-java/rheem-api-python-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-scala-java/rheem-api-scala-java.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-api-scala-java/rheem-api-scala-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build-parent/rheem/rheem-basic/rheem-basic.iml" filepath="$PROJECT_DIR$/rheem-build-parent/rheem/rheem-basic/rheem-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/rheem-build.iml" filepath="$PROJECT_DIR$/rheem-build.iml" />
