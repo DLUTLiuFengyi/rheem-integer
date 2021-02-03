@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rheem-basic" />
+        <module name="rheem-tests-integration_2.11" />
+        <module name="rheem-java" />
+        <module name="rheem-jdbc-template" />
+        <module name="rheem-core" />
+        <module name="rheem-sqlite3" />
+        <module name="rheem-spark" />
+        <module name="rheem-giraph" />
+        <module name="rheem-postgres" />
+        <module name="rheem-api-scala-java" />
+        <module name="rheem-graphchi_2.11" />
+        <module name="rheem-flink" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="rheem" target="1.8" />
+      <module name="rheem-api-python-java" target="1.5" />
+      <module name="rheem-api-scala-java" target="1.8" />
+      <module name="rheem-basic" target="1.8" />
+      <module name="rheem-build" target="1.5" />
+      <module name="rheem-build-parent" target="1.8" />
+      <module name="rheem-build-resources" target="1.5" />
+      <module name="rheem-core" target="1.8" />
+      <module name="rheem-flink" target="1.8" />
+      <module name="rheem-giraph" target="1.8" />
+      <module name="rheem-graphchi_2.11" target="1.8" />
+      <module name="rheem-java" target="1.8" />
+      <module name="rheem-jdbc-template" target="1.8" />
+      <module name="rheem-postgres" target="1.8" />
+      <module name="rheem-spark" target="1.8" />
+      <module name="rheem-sqlite3" target="8" />
+      <module name="rheem-tests-integration_2.11" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

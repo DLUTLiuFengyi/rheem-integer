@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>rheem</artifactId>
+        <groupId>io.rheem</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.rheem</groupId>
+    <artifactId>rheem-api-scala-java_${scala.mayor.version}</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Rheem API Scala-Java</name>
+    <description>Rheem implementation of an API of Scala-Java to be enable to work in functional style</description>
+    <url>https://rheem.io</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+            <comments>
+                Copyright 2020 the original author or authors.
+
+                Licensed under the Apache License, Version 2.0 (the "License");
+                you may not use this file except in compliance with the License.
+                You may obtain a copy of the License at
+
+                http://www.apache.org/licenses/LICENSE-2.0
+
+                Unless required by applicable law or agreed to in writing, software
+                distributed under the License is distributed on an "AS IS" BASIS,
+                WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+                See the License for the specific language governing permissions and
+                limitations under the License.
+            </comments>
+        </license>
+    </licenses>
+
+    <properties>
+        <java-module-name>io.rheem.api.scalajava</java-module-name>
+        <rheem.core.version>1.0.0-SNAPSHOT</rheem.core.version>
+        <rheem.java.version>1.0.0-SNAPSHOT</rheem.java.version>
+        <rheem.spark.version>1.0.0-SNAPSHOT</rheem.spark.version>
+        <spark.version>2.4.0</spark.version>
+        <rheem.sqlite3.version>1.0.0-SNAPSHOT</rheem.sqlite3.version>
+        <spark.version>2.4.0</spark.version>
+    </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/rheem-ecosystem/rheem-api-scala-java</connection>
+        <developerConnection>scm:git:https://github.com/rheem-ecosystem/rheem-api-scala-java</developerConnection>
+        <url>https://github.com/rheem-ecosystem/rheem-api-scala-java</url>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/rheem-ecosystem/rheem-api-scala-java/issues</url>
+    </issueManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.rheem</groupId>
+            <artifactId>rheem-core</artifactId>
+            <version>${rheem.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rheem</groupId>
+            <artifactId>rheem-basic</artifactId>
+            <version>${rheem.core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>de.hpi.isg</groupId>
+            <artifactId>profiledb-store</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.rheem</groupId>
+            <artifactId>rheem-java</artifactId>
+            <version>${rheem.java.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rheem</groupId>
+            <artifactId>rheem-spark_${scala.mayor.version}</artifactId>
+            <version>${rheem.spark.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_${scala.mayor.version}</artifactId>
+            <version>${spark.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rheem</groupId>
+            <artifactId>rheem-sqlite3</artifactId>
+            <version>${rheem.spark.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+<!--            <scope>provided</scope>-->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-hdfs</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <useSystemClassLoader>true</useSystemClassLoader>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
